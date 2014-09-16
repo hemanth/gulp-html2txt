@@ -1,6 +1,6 @@
 {
   "name": "gulp-html2txt",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "gulp plugin to convert html to text",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/hemanth/gulp-html2txt",
   "dependencies": {
-    "gulp-util":"*",
+    "gulp-util": "*",
     "event-stream": "*",
     "html-to-text": "*",
     "map-stream": "*"
