@@ -29,6 +29,6 @@
     "map-stream": "*"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "2.3.3"
   }
 }
