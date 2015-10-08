@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/hemanth/gulp-html2txt",
   "dependencies": {
-    "gulp-util": "*",
+    "gulp-util": "3.0.6",
     "event-stream": "*",
     "html-to-text": "*",
     "map-stream": "*"
