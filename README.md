@@ -1,4 +1,4 @@
-# gulp-html2txt [![NPM version][npm-image]][npm-url] [![Build status][travis-image]][travis-url]
+# gulp-html2txt [![NPM version][npm-image]][npm-url] [![Build Status](https://travis-ci.org/hemanth/gulp-html2txt.svg?branch=master)](https://travis-ci.org/hemanth/gulp-html2txt)
 > Converts HTML to txt using [html-to-text](https://npmjs.org/package/html-to-text)
 
 ## Usage
@@ -16,14 +16,12 @@ var html2txt = require('gulp-html2txt');
 
 gulp.task('default', function(){
   gulp.src('index.html')
-    .pipe(html2txt(150)) // optional wordwrap value.
+    .pipe(html2txt(options)) // options as in `html-to-text`
     .pipe(gulp.dest('dist'));
 });
 ```
 The above will convert index.html to index.txt. 
 
-[travis-url]: http://travis-ci.org/hemanth/gulp-html2txt
-[travis-image]: https://secure.travis-ci.org/lazd/gulp-html2txt.png?branch=master
 [npm-url]: https://npmjs.org/package/gulp-html2txt
 [npm-image]: https://badge.fury.io/js/gulp-repl.png
 

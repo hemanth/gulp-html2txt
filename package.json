@@ -26,9 +26,9 @@
     "gulp-util": "*",
     "event-stream": "*",
     "html-to-text": "*",
-    "map-stream": "*"
+    "event-stream": "^3.3.2"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "^2.3.4"
   }
 }
