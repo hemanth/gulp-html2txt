@@ -28,6 +28,6 @@
     "html-to-text": "*"
   },
   "devDependencies": {
-    "mocha": "^2.3.4"
+    "mocha": "^2.4.5"
   }
 }
