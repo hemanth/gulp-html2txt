@@ -1,6 +1,6 @@
 {
   "name": "gulp-html2txt",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "gulp plugin to convert html to text",
   "main": "index.js",
   "scripts": {
