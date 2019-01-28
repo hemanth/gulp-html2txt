@@ -24,7 +24,7 @@
   "homepage": "https://github.com/hemanth/gulp-html2txt",
   "dependencies": {
     "gulp-util": "*",
-    "event-stream": "^3.3.2",
+    "event-stream": "3.3.4",
     "html-to-text": "*"
   },
   "devDependencies": {
