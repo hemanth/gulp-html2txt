@@ -4,7 +4,9 @@
   "description": "gulp plugin to convert html to text",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "mocha test.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -25,9 +27,11 @@
   "dependencies": {
     "gulp-util": "*",
     "event-stream": "3.3.4",
-    "html-to-text": "*"
+    "html-to-text": "*",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "mocha": "^2.3.4"
-  }
+  },
+  "snyk": true
 }
